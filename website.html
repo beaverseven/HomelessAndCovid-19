@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: black;
+          font-size: 15px;
+          width: 100%;
+          text-align: left;
+          overflow-wrap: break-word;
+          margin-left:8px;
+          
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+    
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav id="navBar">
+        <img src = "homeless.png" width = "300" height = "100">
+        <a href = "myMap.html" style ="float:right; color:white;font-size: 30px; margin-right: 30px; margin-top: 30px"> Map</a> 
+    </nav>
+    
+    <!-- This is Intro -->
+
+    <!-- This is N3 -->
+
+    <section>
+        <div id="n3-container">
+                <p id="titledescription"> The Homeless Population and COVID-19</p>
+        </div>
+
+        <div id = "Sides">
+            <div id ="LeftSide">
+
+                
+
+                    <div class = "mySlides2">
+                        <h1 style = "text-align: center">Homeless Men vs Women In Shelter</h1>
+                        <div class="text"> According to <a href = https://opendata.cityofnewyork.us> NYC OpenData </a>, from the period between 2014
+                        to 2022, the amount of men and women residing in homeless shelters has steadily been increasing.
+                        However, during the time at which COVID-19 had begun, around 2019, the rate at which homeless men
+                        had been admitted to homeless shelters had sharply increased. What's interesting to note is that compared
+                        to homeless male admisisons to homeless shelters, the rate at which females had been admitted to homeless
+                        shelters is drastically lower. In fact, we can see that from the period of 2019-2020, the number of homeless
+                        women admitted to homeless shelters decreased! This is certainly a strange phenomenon. However, this could be
+                        due to the fact that the number of homeless men far exceeds the number of homeless women, so although
+                        the rates are different, the rate at which homeless women are admitted to homeless shelters is affected more as more data is added to the pool.
+                        Another observation to note is that from 2021 to 2022, there is a large drop in the number of homeless men admitted
+                        to homeless shelters. Now, although this may not mean that the number of homeless people dropped in general, there certainly
+                        is the idea that homeless relief programs have been made to lower the number of homeless people admitted to these
+                        shelters, implying that their lives have significantly grown better in terms of quality. In regards to the regression lines
+                        for both homeless men and women admitted to homeless shelters, the slope for homeless men is much steeper than that of homeless women.
+                        This implies that the rate at which homeless men that were admitted at the time of COVID-19 was much higher
+                        than that of women. This may be due to many factors, but the main ones to note are the job layoffs for male-dominated jobs, such
+                        as construction, office jobs, business, etc. The large dip in number of homeless men admitted to shelters in 2021-2022 helped to lessen
+                        this slope, but nonetheless it is still absurdly high. The same goes for homeless women in shelters. Although the numbers
+                        are significantly less, the regression line tells us that it predicts to continue rising.
+                        </div>
+
+
+                    </div>
+
+                    <div class = "mySlides2">
+                        <h1 style = "text-align: center"> Job Loss Rate In Different States During COVID-19</h1>
+                        <div class="text"> This chart presents the job loss rate of all 50 states in the United States. As presented by 
+                            the data, 48 states have had an increase in job loss rates, as is to be expected. What is interesting to see
+                            is the fact that 2 states, Idaho and Utah, had a negative job loss rate. This means that there was an increase in the 
+                            number of jobs given during the COVID-19 pandemic! This may be due to the fact that COVID-19 had different impacts in each
+                            state, and in places where COVID-19 had a small effect on job loss rates, jobs relating to the medical field were most
+                            likely given to many in efforts to suppress COVID-19. Jobs such as test-takers, hospital staff, and more were most likely given
+                            to these individuals, and as a result, the number of jobs increased. In regards to the other 48 states, its clear
+                            to see that the pandemic had a negative effect on jobs, as many people were unfortunately laid off, and even fired. It is interesting
+                            to see that Hawaii had the highest job loss rate during COVID-19, as it is a state far off from the main-land. However, it is also
+                            important to note that the job-loss rates are directly correlated to the population of each state, as the number of jobs
+                            are affected by the number of people. This means that states with smaller populations that were affected by COVID-19 negatively
+                            were susceptible to higher job loss rates. So, seeing states such as New York, with high populations and a high job loss rate, really
+                            displays how devastating COVID-19 was on the economy and peoples lives. According to the bar-graph, there are two peaks in job loss rates,
+                            one in Hawaii, and one in New York. This tells us that the mode of the job loss rates exists in these states.
+                        </div>
+
+                    </div>
+
+                    <div class = "mySlides2">
+                        <h1 style = "text-align: center"> Homeless People Encountered in Hospitals </h1>
+
+                        <div class="text"> The graph on the right displays the trend in homeless people being admitted
+                            to hospitals during the period from 2017 - 2021. This information is important to present because
+                            it displays how COVID-19 affected the access to healthcare centers for homeless people. As you can see
+                            from the graph, from the period between 2017-2019, there was a general increase in the number of homeless people
+                            encountered in hospitals. However, as the pandemic begun, this number drastically decreased. This may be due to 
+                            a number of reasons. One reason can be the prioritization of non-homeless people, who show that they have insurance
+                            or a positive record. Another reason can be homeless people know that they can't afford hospitas, so they don't want
+                            to put themselves in more financial burder. A third reason can be simply because many homeless people have unfortunately
+                            passed away from the pandemic, and have not received the proper help that they needed. However, towards the end of 2020, as COVID-19
+                            began to die down, the number of homeless people admitted into hospitals drastically increased again. This can be due to 
+                            medical reasons besides COVID-19 of course, but nonetheless efforts to help homeless people have sprung up again and have
+                            led to this drastic increase. The map displayed on the top right of this page displays areas in the United States
+                            aimed at helping homeless people that have emerged during the COVID-19 pandemic. This shows that efforts helping
+                            homeless people out during the pandemic have significantly increased, and as a result the number of homeless people
+                            receiving services such as healthcare have also gone up.
+                            
+                            
+                        </div>
+                    </div>
+
+                        
+                    
+
+                    
+                    
+
+
+
+              
+
+                
+
+            
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+               
+
+            </div>
+                
+                
+               
+
+            
+
+            
+
+            <div id = "RightSide">
+
+                
+                <!-- Slideshow container -->
+
+                <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="Images/img1.png" style="width:100%">
+                </div>
+  
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="Images/img2.png" style="width:100%">
+                </div>
+  
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="Images/img3.png" style="width:100%">
+                </div>
+  
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1);plusSlides2(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1);plusSlides2(1)">&#10095;</a>
+                </div>
+                <br>
+  
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1);currentSlide2(1)"></span>
+                <span class="dot" onclick="currentSlide(2);currentSlide2(2)"></span>
+                <span class="dot" onclick="currentSlide(3);currentSlide2(3)"></span>
+                </div>
+                
+               
+                
+
+            </div>
+
+
+        </div>
+
+        
+
+    </section>
+
+    <!-- Copyright Section -->
+
+    <footer id="bottom-of-page">
+        <div class="bottom">
+            <p id="copyright">Copyright&copy; 2021, Kamil Piziak</p>
+        </div>
+
+
+
+
+    </footer>
+
+    <script>let slideIndex = 1;
+        let slideIndex2 =1;
+        showSlides(slideIndex);
+        showSlides2(slideIndex2);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function plusSlides2(n){
+            showSlides2(slideIndex2+=n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function currentSlide2(n){
+            showSlides2(slideIndex2 = n);
+        }
+
+        function showSlides2(n){
+          let i;
+          let slides = document.getElementsByClassName("mySlides2");
+          let dots = document.getElementsByClassName("dot");
+
+          if (n > slides.length) {slideIndex2 = 1}    
+          if (n < 1) {slideIndex2 = slides.length}
+
+
+          //Hides all slides by default
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          //Hides slides
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            
+          }
+          //Shows slides
+          slides[slideIndex2-1].style.display = "block";
+          dots[slideIndex2-1].className += " active";
+
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+
+
+          //Hides all slides by default
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          //Hides slides
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            
+          }
+          //Shows slides
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }</script>
+
+<!--This is the second-->
+
+
+
+</body>
+</html>
